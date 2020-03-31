@@ -6,6 +6,23 @@ body {
     min-height: 100%;
 }
 
+/* 
+#phase-1 {
+    position: relative;
+    margin: 10px auto;
+
+} */
+
+
+/* phase 2 */
+#phase-2 {
+    margin: 10px auto;
+}
+
+#nama-user {
+    color: red;
+}
+
 .hide {
     display: none;
 }
