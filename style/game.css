@@ -1,3 +1,11 @@
+body {
+    background-image: url("../img/email-pattern.png");
+    background-color: white;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100%;
+}
+
 .hide {
     display: none;
 }
