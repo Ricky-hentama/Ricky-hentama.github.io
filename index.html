@@ -17,25 +17,23 @@
 
 <body>
     <!-- phase 1 -->
-    <div class="container" id="phase-1">
-        <form class="form-signin text-center">
-            <img class="mb-4" src="img/penta.png" style="background-color:rgb(136, 134, 134,0.5); border-radius: 10px;"
-                width="200" height="60">
-            <h1 class="h3 mb-3 font-weight-normal">Ndaftar disit</h1>
-            <label for="nama" class="sr-only">Email address</label>
-            <input type="text" id="nama" class="form-control" placeholder="Nama anda" required autofocus
-                autocomplete="off">
-            <br>
-            <button class="btn btn-lg btn-primary btn-block" type="submit" id="tombol-lanjut">Lanjut</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
-        </form>
+
+    <div class="form-signin text-center " id="phase-1">
+        <img class="mb-4" src="img/penta.png" style="background-color:rgba(102, 101, 101, 0.5); border-radius: 10px;"
+            width="200" height="60">
+        <h1 class="h3 mb-3 font-weight-normal">Ndaftar disit</h1>
+
+        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama kamu">
+        <br>
+        <button class="btn btn-primary btn-block" id="tombol-lanjut">Lanjut</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
     </div>
 
 
     <!-- end phase 1 -->
 
     <!-- phase 2 -->
-    <div id="phase-2" class="hide">
+    <div id="phase-2" class="hide ">
         <h1>
             selamat datang <span id="nama-user"></span>
         </h1>
@@ -52,6 +50,7 @@
     </script>
     <script src="style/bootstrap/js/bootstrap.js">
     </script>
+
 </body>
 
 </html>

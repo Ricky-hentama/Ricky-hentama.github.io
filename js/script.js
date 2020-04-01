@@ -1,12 +1,8 @@
-$("#tombol-lanjut").click(function() {
-  let nama = $("#nama").val();
-  console.log(nama);
-  if (nama == "") {
-    console.log("WAJIB TULIS NAMA!");
-  } else {
+$(document).ready(function() {
+  $("#tombol-lanjut").click(function() {
+    let namaUser = $("#nama").val();
     $("#phase-1").addClass("hide");
-
     $("#phase-2").removeClass("hide");
-    $("#nama-user").html(nama);
-  }
+    $("#nama-user").html(namaUser);
+  });
 });
