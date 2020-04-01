@@ -12,8 +12,11 @@ $(document).ready(function() {
         let jwb = e.target.dataset.jawab;
         if (jwb == "ora") {
           $("#phase-2").addClass("hide");
-          $("#phase-3").removeClass("hide");
+          $("#phase-3-ora").removeClass("hide");
           $(".nama-user").html(namaUser);
+        } else {
+          $("#phase-2").addClass("hide");
+          $("#phase-3-iya").removeClass("hide");
         }
       });
     }

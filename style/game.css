@@ -37,16 +37,36 @@ body {
 }
 
 /* phase 3 ora */
-#phase-3 {
+#phase-3-ora {
     margin: 10px auto;
 }
 
-#phase-3 h1 {
+#phase-3-ora h1 {
+    margin-left: 10px;
     font-size: 60px;
 }
 
+#phase-3-ora a {
+    font-size: 30px;
+    border-radius: 14px;
+    margin: 10px;
+
+}
 
 
+/* margin 3 iya */
+
+#phase-3-iya {
+    margin: 0px auto;
+}
+
+#kategori li {
+    margin-bottom: 10px;
+}
+
+#kategori li:hover {
+    background: hsl(216, 90%, 62%);
+}
 
 /* hide */
 .hide {
