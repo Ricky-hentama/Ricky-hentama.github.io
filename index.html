@@ -23,7 +23,7 @@
             width="200" height="60">
         <h1 class="h3 mb-3 font-weight-normal">Ndaftar disit</h1>
 
-        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama kamu">
+        <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama kamu" autocomplete="off">
         <br>
         <button class="btn btn-primary btn-block" id="tombol-lanjut">Lanjut</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
@@ -33,12 +33,30 @@
     <!-- end phase 1 -->
 
     <!-- phase 2 -->
-    <div id="phase-2" class="hide ">
+    <div id="phase-2" class="text-center hide ">
         <h1>
-            selamat datang <span id="nama-user"></span>
+            selamat datang <span class="nama-user"></span>
         </h1>
+        <br>
+        <h3>Pengin dolanan apa ora?</h3>
+        <div class="btn btn-group">
+            <button class="btn btn-primary" data-jawab="iya">iya dong</button>
+            <button class="btn btn-danger" data-jawab="ora">ora lah</button>
+        </div>
     </div>
     <!-- end phase 2 -->
+
+    <!-- phase 3 -->
+    <div id="phase-3" class="text-center hide ">
+        <!-- ora -->
+        <div class="container text-center">
+            <h1>Ora popo <i class="fab fa-angellist"></i></h1>
+            <h2>Maturnuwun <span class="nama-user"></span> sampun mampir </h2>
+        </div>
+
+    </div> <!-- end phase 3 -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
