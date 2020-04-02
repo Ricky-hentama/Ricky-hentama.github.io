@@ -1,9 +1,9 @@
 body {
-    background-image: url("../img/email-pattern.png");
-    background-color: white;
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 100%;
+  background-image: url("../img/email-pattern.png");
+  background-color: white;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100%;
 }
 
 /* 
@@ -13,95 +13,77 @@ body {
 
 } */
 
-
 /* phase 2 */
 #phase-2 {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 #phase-2 h1 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 #phase-2 button {
-    font-size: 30px;
-    border-radius: 14px;
-    margin: 10px;
+  font-size: 30px;
+  border-radius: 14px;
+  margin: 10px;
 }
 
-
 .nama-user {
-    color: red;
-    font-weight: bold;
-    font-style: oblique;
+  color: red;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 /* phase 3 ora */
 #phase-3-ora {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 #phase-3-ora h1 {
-    margin-left: 10px;
-    font-size: 60px;
+  margin-left: 10px;
+  font-size: 60px;
 }
 
 #phase-3-ora a {
-    font-size: 30px;
-    border-radius: 14px;
-    margin: 10px;
-
+  font-size: 30px;
+  border-radius: 14px;
+  margin: 10px;
 }
-
 
 /* margin 3 iya */
 
 #phase-3-iya {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 #kategori li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
-    background: hsl(0, 2%, 87%);
+  background: hsl(0, 2%, 87%);
 }
 
 #kategori li:hover {
-    background: hsl(216, 90%, 62%);
-    cursor: pointer;
+  background: hsl(216, 90%, 62%);
+  cursor: pointer;
 }
-
 
 /* phase 4 */
 
 #phase-4 {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 .kartu {
-    background-color: #cfc8c8;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin: 2px 2px;
-    cursor: pointer;
-    font-size: 20px;
-
+  background-color: #ddd7d7;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  margin: 2px 2px;
+  cursor: pointer;
+  font-size: 20px;
 }
-
-.kartu:after {
-    content: 'januuuu';
-}
-
-
-
-
-
-
-
-
 
 /* hide */
 .hide {
-    display: none;
+  display: none;
 }

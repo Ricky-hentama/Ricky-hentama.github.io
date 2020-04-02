@@ -1,4 +1,23 @@
 $(document).ready(function() {
+  // kategori
+  let k_toi = [
+    "adit",
+    "ade",
+    "apri",
+    "agung",
+    "alfat",
+    "andre",
+    "pandu",
+    "arfan",
+    "dena",
+    "elvin",
+    "faizal",
+    "fuad",
+    "gani",
+    "galih",
+    "hamdan",
+    "habibi"
+  ];
   // phase-1
   $("#tombol-lanjut").click(function() {
     let namaUser = $("#nama").val();
@@ -24,6 +43,11 @@ $(document).ready(function() {
             $("#phase-3-iya").addClass("hide");
             $("#phase-4").removeClass("hide");
             $("#kategori-terpilih").html(textKategori);
+            $(".kartu").each(function(i, e) {
+              k_toi.each(function(z) {
+                $(".kartu").html("z");
+              });
+            });
           });
         }
       });
