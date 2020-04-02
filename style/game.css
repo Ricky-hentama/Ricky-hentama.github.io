@@ -62,11 +62,31 @@ body {
 
 #kategori li {
     margin-bottom: 10px;
+
+    background: hsl(0, 2%, 87%);
 }
 
 #kategori li:hover {
     background: hsl(216, 90%, 62%);
+    cursor: pointer;
 }
+
+
+/* phase 4 */
+
+#phase-4 {
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* hide */
 .hide {

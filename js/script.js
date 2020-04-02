@@ -17,6 +17,14 @@ $(document).ready(function() {
         } else {
           $("#phase-2").addClass("hide");
           $("#phase-3-iya").removeClass("hide");
+
+          $("#kategori li").click(function(e) {
+            let kategori = e.target.dataset.kategori;
+            let textKategori = e.target.innerText;
+            $("#phase-3-iya").addClass("hide");
+            $("#phase-4").removeClass("hide");
+            $("#kategori-terpilih").html(textKategori);
+          });
         }
       });
     }
