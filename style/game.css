@@ -81,7 +81,13 @@ body {
   margin: 2px 2px;
   cursor: pointer;
   font-size: 20px;
-  line-height: 150px;
+  overflow: scroll;
+
+
+}
+
+.isi {
+  margin-top: 50px;
 }
 
 /* hide */
