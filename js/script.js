@@ -18,6 +18,26 @@ $(document).ready(function() {
     ["hamdan"],
     ["habibi"]
   ];
+  let k_mesum = [
+    ["adit 2"],
+    ["ade 3"],
+    ["apri 4"],
+    ["agung 5"],
+    ["alfat 6"],
+    ["andre 7"],
+    ["pandu 8"],
+    ["arfan 9"],
+    ["dena 10"],
+    ["elvin 11"],
+    ["faizal 12"],
+    ["fuad 13"],
+    ["gani 14"],
+    ["galih"],
+    ["hamdan"],
+    ["habibi"]
+  ];
+
+  // Akhir kategori
   // phase-1
   $("#tombol-lanjut").click(function() {
     let namaUser = $("#nama").val();
@@ -43,12 +63,21 @@ $(document).ready(function() {
             $("#phase-3-iya").addClass("hide");
             $("#phase-4").removeClass("hide");
             $("#kategori-terpilih").html(textKategori);
-
             let kartu = document.getElementsByClassName("kartu");
-            for (let i = 0; i < kartu.length; i++) {
-              k_toi.forEach((e, i) => {
-                kartu[i].innerHTML = e;
-              });
+
+            // berdasarkan kategori
+            if (kategori == "toi") {
+              for (let i = 0; i < kartu.length; i++) {
+                k_toi.forEach((e, i) => {
+                  kartu[i].innerHTML = e;
+                });
+              }
+            } else if (kategori == "mesum") {
+              for (let i = 0; i < kartu.length; i++) {
+                k_mesum.forEach((e, i) => {
+                  kartu[i].innerHTML = e;
+                });
+              }
             }
           });
         }
