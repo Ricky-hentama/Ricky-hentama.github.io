@@ -21,14 +21,15 @@ $(document).ready(function () {
           $("#kategori li").click(function (e) {
             let kategori = e.target.dataset.kategori;
             let textKategori = e.target.innerText;
+            let nilai = [$(".kartu .ceklis").val()];
             $("#phase-3-iya").addClass("hide");
             $("#phase-4").removeClass("hide");
             $("#kategori-terpilih").html(textKategori);
             $(".ceklis").click(function () {
               $(this).parent().parent().toggleClass("bg-kartu");
+              console.log(nilai);
             });
             let isi = document.getElementsByClassName("isi");
-
             // berdasarkan kategori
             if (kategori == "toi") {
               for (let i = 0; i < isi.length; i++) {
