@@ -74,7 +74,7 @@ body {
 }
 
 .kartu {
-  background-color: #ddd7d7;
+  background-color: #009BFF;
   height: 150px;
   width: 150px;
   display: inline-block;
@@ -91,6 +91,7 @@ body {
 }
 
 .ceklis {
+
   position: relative;
 }
 
