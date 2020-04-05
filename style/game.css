@@ -76,6 +76,9 @@ body {
 
 /* phase 4 */
 
+#phase-4 {
+  padding: 100px auto;
+}
 
 #ide-terpilih {
   color: red;
@@ -106,6 +109,8 @@ body {
 }
 
 /* phase 5 */
+
+
 #phase-5 a {
   font-size: 30px;
   border-radius: 14px;
