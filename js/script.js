@@ -29,16 +29,6 @@ $(document).ready(function () {
             // bg kartu setelah diklik
             $(".ceklis").click(function () {
               $(this).parent().parent().toggleClass("bg-kartu");
-
-              // hasil akhir
-              let jml = [];
-              $("#hasil").click(function () {
-                jml = $(".bg-kartu").length;
-                if (jml <= 4) {
-                  alert(jml);
-                }
-              });
-              // hasil akhir
             });
             let isi = document.getElementsByClassName("isi");
             // berdasarkan kategori
@@ -61,6 +51,44 @@ $(document).ready(function () {
                 });
               }
             }
+
+            // hasil akhir
+            let jml = [];
+            let hasil;
+            $("#hasil").click(function () {
+              $("#phase-4").addClass("hide");
+              $("#phase-5").removeClass("hide");
+              jml = $(".bg-kartu").length;
+              if (jml <= 0) {
+                hasil = "KAMU BELUM MEMILIH WOIIII!";
+              } else if (jml <= 2) {
+                hasil = "Anak pendiam";
+              } else if (jml <= 4) {
+                hasil = "Anak baik-baik";
+              } else if (jml <= 5) {
+                hasil = "murid teladan";
+              } else if (jml <= 6) {
+                hasil = "anak normal";
+              } else if (jml <= 7) {
+                hasil = "orang yang aktif";
+              } else if (jml <= 8) {
+                hasil = "orang-nya asik ";
+              } else if (jml <= 10) {
+                hasil = "petakilan";
+              } else if (jml <= 11) {
+                hasil = "layak masuk penta";
+              } else if (jml <= 13) {
+                hasil = "murid ndlajig";
+              } else if (jml <= 14) {
+                hasil = "murid gaada otak";
+              } else if (jml <= 15) {
+                hasil = "Wedhus";
+              } else if (jml <= 16) {
+                hasil = "murid lejen ";
+              }
+              $("#text-hasil").html(hasil);
+            });
+            // hasil akhir
           });
         }
       });

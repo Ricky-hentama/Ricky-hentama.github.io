@@ -14,11 +14,16 @@ body {
 } */
 
 /* phase 2 */
-#phase-2 {
+#phase-2,
+#phase-3-ora,
+#phase-3-iya,
+#phase-4,
+#phase-5 {
   margin: 10px auto;
 }
 
-#phase-2 h1 {
+#phase-2 h1,
+#phase-5 h1 {
   font-size: 60px;
 }
 
@@ -28,16 +33,15 @@ body {
   margin: 10px;
 }
 
-.nama-user {
+.nama-user,
+#text-hasil {
   color: red;
   font-weight: bold;
   font-style: oblique;
 }
 
 /* phase 3 ora */
-#phase-3-ora {
-  margin: 10px auto;
-}
+
 
 #phase-3-ora h1 {
   margin-left: 10px;
@@ -52,9 +56,7 @@ body {
 
 /* margin 3 iya */
 
-#phase-3-iya {
-  margin: 0px auto;
-}
+
 
 #kategori li {
   margin-bottom: 10px;
@@ -69,9 +71,6 @@ body {
 
 /* phase 4 */
 
-#phase-4 {
-  margin: 0px auto;
-}
 
 #ide-terpilih {
   color: red;
@@ -80,16 +79,16 @@ body {
 .kartu {
   background-color: #c1c1c7;
   height: 130px;
-  width: 150px;
+  width: 140px;
   display: inline-block;
-  margin: 2px 2px;
+  padding: 2px 2px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 17px;
   overflow: auto;
 }
 
 .isi {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .ceklis {
@@ -100,6 +99,15 @@ body {
 .bg-kartu {
   background-color: #009BFF;
 }
+
+/* phase 5 */
+#phase-5 a {
+  font-size: 30px;
+  border-radius: 14px;
+  margin: 10px;
+}
+
+
 
 /* hide */
 .hide {
