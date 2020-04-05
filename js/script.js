@@ -60,7 +60,7 @@ $(document).ready(function () {
               $("#phase-5").removeClass("hide");
               jml = $(".bg-kartu").length;
               if (jml <= 0) {
-                hasil = "KAMU BELUM MEMILIH WOIIII!";
+                hasil = "BELUM MEMILIH WOIIII!";
               } else if (jml <= 2) {
                 hasil = "Anak pendiam";
               } else if (jml <= 4) {

@@ -18,25 +18,25 @@ let k_toi = [
   ["telat bayar kas"],
 ];
 let k_mesum = [
-  ["adit 2"],
-  ["ade 3"],
-  ["coli 3x"],
-  ["agung 5"],
-  ["alfat 6"],
-  ["andre 7"],
-  ["pandu 8"],
-  ["arfan 9"],
-  ["dena 10"],
-  ["elvin 11"],
-  ["faizal 12"],
-  ["fuad 13"],
-  ["gani 14"],
-  ["galih"],
-  ["hamdan"],
-  ["habibi"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
+  ["kosong"],
 ];
 
 // ide
 
 let i_toi = "janu, aditiya, gani";
-let i_mesum = "faizal ramadhan, gani wedus lover";
+let i_mesum = "faizal, gani wedus lover";

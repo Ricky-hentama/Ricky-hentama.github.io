@@ -33,11 +33,16 @@ body {
   margin: 10px;
 }
 
-.nama-user,
-#text-hasil {
+.nama-user {
   color: red;
   font-weight: bold;
   font-style: oblique;
+}
+
+#text-hasil {
+  color: red;
+  font-weight: bold;
+
 }
 
 /* phase 3 ora */
