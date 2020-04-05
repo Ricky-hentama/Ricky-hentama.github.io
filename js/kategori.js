@@ -15,12 +15,12 @@ let k_toi = [
   ["diomeli pak iron man"],
   ["tidur waktu pelajaran"],
   ["(kerja) (kelompol)"],
-  ["telat bayar kas"]
+  ["telat bayar kas"],
 ];
 let k_mesum = [
   ["adit 2"],
   ["ade 3"],
-  ["apri 4"],
+  ["coli 3x"],
   ["agung 5"],
   ["alfat 6"],
   ["andre 7"],
@@ -33,5 +33,10 @@ let k_mesum = [
   ["gani 14"],
   ["galih"],
   ["hamdan"],
-  ["habibi"]
+  ["habibi"],
 ];
+
+// ide
+
+let i_toi = "janu, aditiya, gani";
+let i_mesum = "faizal ramadhan, gani wedus lover";

@@ -32,6 +32,9 @@ $(document).ready(function () {
             let isi = document.getElementsByClassName("isi");
             // berdasarkan kategori
             if (kategori == "toi") {
+              // ide
+              $("#ide-terpilih").html(i_toi);
+              // isi
               for (let i = 0; i < isi.length; i++) {
                 k_toi.forEach((e, i) => {
                   isi[i].innerHTML = e;

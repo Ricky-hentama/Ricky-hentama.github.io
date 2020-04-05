@@ -73,6 +73,10 @@ body {
   margin: 0px auto;
 }
 
+#ide-terpilih {
+  color: red;
+}
+
 .kartu {
   background-color: #c1c1c7;
   height: 150px;
