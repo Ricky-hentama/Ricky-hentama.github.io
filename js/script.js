@@ -14,20 +14,26 @@ $(document).ready(function () {
           $("#phase-2").addClass("hide");
           $("#phase-3-ora").removeClass("hide");
           $(".nama-user").html(namaUser);
-        } else {
+        }
+        // phase-3
+        else {
           $("#phase-2").addClass("hide");
           $("#phase-3-iya").removeClass("hide");
-
           $("#kategori li").click(function (e) {
             let kategori = e.target.dataset.kategori;
             let textKategori = e.target.innerText;
-            let nilai = [$(".kartu .ceklis").val()];
+            let nilai = $(".checkbox-label").mouseover(function (e) {
+              nilai = e.target.offsetParent.control.value;
+            });
+            let nilai2 = [];
             $("#phase-3-iya").addClass("hide");
             $("#phase-4").removeClass("hide");
             $("#kategori-terpilih").html(textKategori);
+            // bg kartu setelah diklik
             $(".ceklis").click(function () {
               $(this).parent().parent().toggleClass("bg-kartu");
-              console.log(nilai);
+              nilai2.push(nilai);
+              console.log(nilai2);
             });
             let isi = document.getElementsByClassName("isi");
             // berdasarkan kategori
@@ -41,6 +47,9 @@ $(document).ready(function () {
                 });
               }
             } else if (kategori == "mesum") {
+              // ide
+              $("#ide-terpilih").html(i_mesum);
+              // isi
               for (let i = 0; i < isi.length; i++) {
                 k_mesum.forEach((e, i) => {
                   isi[i].innerHTML = e;
