@@ -22,18 +22,23 @@ $(document).ready(function () {
           $("#kategori li").click(function (e) {
             let kategori = e.target.dataset.kategori;
             let textKategori = e.target.innerText;
-            let nilai = $(".checkbox-label").mouseover(function (e) {
-              nilai = e.target.offsetParent.control.value;
-            });
-            let nilai2 = [];
+
             $("#phase-3-iya").addClass("hide");
             $("#phase-4").removeClass("hide");
             $("#kategori-terpilih").html(textKategori);
             // bg kartu setelah diklik
             $(".ceklis").click(function () {
               $(this).parent().parent().toggleClass("bg-kartu");
-              nilai2.push(nilai);
-              console.log(nilai2);
+
+              // hasil akhir
+              let jml = [];
+              $("#hasil").click(function () {
+                jml = $(".bg-kartu").length;
+                if (jml <= 4) {
+                  alert(jml);
+                }
+              });
+              // hasil akhir
             });
             let isi = document.getElementsByClassName("isi");
             // berdasarkan kategori
