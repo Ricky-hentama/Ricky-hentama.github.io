@@ -1,17 +1,17 @@
 $(window).on("load", function () {
     $(".navbar").addClass("element-show-nav");
 
-    setTimeout(function () {
-        $(".satu").addClass("element-show");
-    }, 1000);
+
+    $(".satu").addClass("element-show");
+
     setTimeout(function () {
         $(".dua").addClass("element-show");
-    }, 1500);
+    }, 500);
     setTimeout(function () {
         $(".tiga").addClass("element-show");
-    }, 2000);
+    }, 1000);
     setTimeout(function () {
         $(".tombol-utama").addClass("element-show");
-    }, 2500);
+    }, 1500);
     // $(".satu, .dua, .tiga, .tiga, .tombol-utama ").addClass("element-show");
 });
