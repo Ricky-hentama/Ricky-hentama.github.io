@@ -6,6 +6,9 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+:root {
+  color-scheme: only light;
+}
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
