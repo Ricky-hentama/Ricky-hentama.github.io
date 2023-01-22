@@ -1,5 +1,6 @@
-$(document).ready(function () {
 
+// jquery
+$(document).ready(function () {
 
 $(window).on("load", function () {
     setTimeout(function () {
