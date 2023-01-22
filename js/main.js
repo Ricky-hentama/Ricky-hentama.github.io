@@ -1,6 +1,27 @@
 
 // jquery
 $(document).ready(function () {
+    // var ww = document.body.clientWidth;
+    // if (ww < 600) {
+    //   $('home-banner-area').removeClass('pb-60');
+    // } 
+    
+ 
+    // tambahan padding
+  var alterClass = function() {
+    var ww = $(window).width();
+    if (ww < 600) {
+      $('home-banner-area').removeClass('pb-60');
+    } else if (ww >= 601) {
+      $('.home-banner-area').addClass('pb-60');
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+
+//   alterClass();
+
 
 $(window).on("load", function () {
     setTimeout(function () {
