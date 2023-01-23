@@ -2,12 +2,12 @@
 // jquery
 $(document).ready(function () {
  
-    var ww = $(window).width();
-    var wg = document.body.clientWidth;
-    if (wg < 600) {
-      alert('under 600')
+    // var ww = $(window).width();
+    // var wg = document.body.clientWidth;
+    // if (wg < 600) {
+    //   alert('under 600')
     //   $('.home-banner-area').addClass('pb-60');
-    } 
+    // } 
     
 
 
