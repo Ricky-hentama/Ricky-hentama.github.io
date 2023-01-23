@@ -2115,6 +2115,7 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
+
 .home-banner-area {
   background: url(../img/banner-bg.jpg) center;
   background-size: cover; }
@@ -3653,5 +3654,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 /* end floating img */
+
 
 /*# sourceMappingURL=main.css.map */

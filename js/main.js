@@ -1,34 +1,25 @@
 
 // jquery
 $(document).ready(function () {
-    // var ww = document.body.clientWidth;
-    // if (ww < 600) {
-    //   $('home-banner-area').removeClass('pb-60');
-    // } 
-    
  
-    // tambahan padding
-  var alterClass = function() {
     var ww = $(window).width();
-    if (ww < 600) {
-      $('home-banner-area').removeClass('pb-60');
-    } else if (ww >= 601) {
-      $('.home-banner-area').addClass('pb-60');
-    };
-  };
-  $(window).resize(function(){
-    alterClass();
-  });
-
-//   alterClass();
+    var wg = document.body.clientWidth;
+    if (wg < 600) {
+      alert('under 600')
+    //   $('.home-banner-area').addClass('pb-60');
+    } 
+    
 
 
-$(window).on("load", function () {
-    setTimeout(function () {
-      $("#loader").fadeOut("slow");
-    }, 2500);
-  });
 
+
+// loader
+    $(window).on("load", function () {
+        setTimeout(function () {
+        $("#loader").fadeOut("slow");
+        }, 2500);
+    });
+// End loader
   
     "use strict";
 
